@@ -161,7 +161,7 @@ public class EAPMetadata extends Activity {
 			if (eduroamCAT.wifiProfile==null) eduroamCAT.wifiProfile = new WiFiProfile();
 			if (eduroamCAT.wifiProfile!=null && db.numberOfRowsWiFi()<1) {
 				eduroamCAT.wifiProfile.isOK();
-				eduroamCAT.wifiProfile.setSSID("eduroam");
+				eduroamCAT.wifiProfile.setSSID("campusroam");
 				eduroamCAT.wifiProfile.setAuthType("WPA2");
 				eduroamCAT.wifiProfile.setEncryptionType("CCMP");
 				eduroamCAT.wifiProfile.setAutojoin(true);
